@@ -1,0 +1,86 @@
+$veryDark:hsl(233, 47%, 7%);
+$veryDesaturated:hsl(244, 38%, 16%);
+$violet:hsl(277, 64%, 61%);
+
+$white:hsl(0, 0%, 100%);
+$SlightlyParagraph:hsla(0, 0%, 100%, 0.75);
+$Slightlyheadings:hsla(0, 0%, 100%, 0.6);
+
+.body{
+  background-color:$veryDark;
+  width:100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lexend Deca', sans-serif; 
+ 
+}
+.card{
+  width:320px;
+  background-color:$veryDesaturated; 
+  color:$SlightlyParagraph;
+  display:flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  
+
+  @media screen and (min-width: 800px){
+    flex-direction: row-reverse;
+    width: 1000px;
+    justify-content:space-around;
+    img{
+      width:500px;
+       border-radius:0 1rem 1rem 0;
+    }
+    .card_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    }
+  }
+  .card_header{
+    display:flex;
+  }
+
+  h1{
+    font-size:1.5rem;
+    color:$white;
+    font-family: 'Inter', sans-serif;
+    font-weight:700;
+    text-align: center;
+    margin:2rem;
+    padding:0 1rem;
+    span{
+      color:$violet;
+    }
+  }
+  p{
+    text-align:center;
+    margin: 0 2rem;    
+  }
+
+  .card_footer{
+    margin:2rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align:center;
+    font-size:1.25rem;
+    font-family: 'Lexend Deca', sans-serif;
+
+    @media screen and (min-width: 800px){
+    justify-content: space-between;
+    flex-direction: row;   
+   
+  }
+    span{
+      font-size: 2rem;
+      color:$white;
+    }
+    div{
+      margin-bottom: 1rem;
+    } 
+  }
+}
+
