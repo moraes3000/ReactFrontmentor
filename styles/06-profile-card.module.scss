@@ -1,0 +1,80 @@
+$Dark : hsl(185, 75%, 39%);
+$VeryDark  : hsl(229, 23%, 23%);
+$DarkGrayish : hsl(227, 10%, 46%);
+
+$DarkGray: hsl(0, 0%, 59%);
+ .body{
+   background-image: url("../public/06-profile-card/bg-pattern-top.svg");
+  //  background-image: url("../public/06-profile-card/bg-pattern-bottom.svg");
+     background-attachment: fixed;
+  background-position: center;
+   background-color: $Dark;
+   width:100%;
+   height:100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   font-size:18px;
+   font-family: 'Kumbh Sans', sans-serif;
+   font-weight:400;
+   color:$DarkGray;
+   
+   h1, strong {
+   color:$VeryDark;
+ }
+ }
+
+
+ .card{
+   background-color: #fff;
+   width:320px;
+   border-radius:1rem;
+  .card_bg{
+     img{
+       border-radius:1rem 1rem 0 0 ;
+     }
+  }
+ }
+
+ .card_body{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+    position: relative;
+   
+   img{
+    position: absolute;
+    top: -50px;
+    width:100px;
+    border-radius:50%;
+    border:2px solid #fff;
+    
+   }
+   h1{
+     margin-top:70px;
+     font-weight:700;
+     span{
+       color:$DarkGray;
+     }
+   }
+
+   
+ }
+
+ .card_footer{
+    padding: 1.5rem;
+   ul{
+     list-style: none;
+     display:flex;
+     justify-content:space-between;
+     text-align: center;   
+    font-size: 12px;
+    strong{
+      font-size: 18px;
+    }
+   }
+   
+  
+ }

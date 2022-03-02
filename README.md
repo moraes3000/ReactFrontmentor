@@ -28,3 +28,8 @@ Onde irá ficar visível uma página com o código e outras duas com a visão
 
 <img src="public/05-3-column-preview-card/desktop.png" > Desktop | <img src="public/05-3-column-preview-card/mobile.png" > Mobile
 | :---: | :---: |
+
+### Desafio 6
+
+<img src="public/06-profile-card/desktop.png" > Desktop | <img src="public/06-profile-card/mobile.png" > Mobile
+| :---: | :---: |
