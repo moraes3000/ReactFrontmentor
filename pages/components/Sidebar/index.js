@@ -62,7 +62,6 @@ export default function Home() {
                   </Link>
                 </AccordionPanel>
               </AccordionItem>
-
               {/*  */}
               <AccordionItem>
                 <h2>
@@ -89,6 +88,33 @@ export default function Home() {
                   </Link>
                 </AccordionPanel>
               </AccordionItem>
+              {/*  */}
+              <AccordionItem>
+                <h2>
+                  <AccordionButton>
+                    <Box flex="1" textAlign="left">
+                      03-order-summary-component-main
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4}>
+                  <Link href="/03-order-summary-component-main">
+                    <a> Index</a>
+                  </Link>
+                </AccordionPanel>
+                <AccordionPanel pb={4}>
+                  <Link href="/03-order-summary-component-main/desktop">
+                    <a>Layout Desktop</a>
+                  </Link>
+                </AccordionPanel>
+                <AccordionPanel pb={4}>
+                  <Link href="/03-order-summary-component-main/mobile">
+                    <a>Layout Mobile</a>
+                  </Link>
+                </AccordionPanel>
+              </AccordionItem>
+              {/*  */}
             </Accordion>
           </DrawerBody>
         </DrawerContent>
