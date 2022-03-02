@@ -5,7 +5,7 @@ export default function ComponentMobile() {
     <div class={styles.body}>
       <div class={styles.container}>
         <img
-          src="/04-stats-preview-card/mobile-design.jpg"
+          src="/05-3-column-preview-card/mobile-design.jpg"
           alt="layout mobile"
         />
       </div>

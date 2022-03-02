@@ -5,7 +5,7 @@ export default function ComponentDesktop() {
     <div class={styles.body}>
       <div class={styles.container}>
         <img
-          src="/04-stats-preview-card/desktop-design.jpg/"
+          src="/05-3-column-preview-card/active-states.jpg"
           alt="layout desktop"
         />
       </div>
