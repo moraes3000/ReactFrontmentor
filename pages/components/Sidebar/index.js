@@ -115,6 +115,32 @@ export default function Home() {
                 </AccordionPanel>
               </AccordionItem>
               {/*  */}
+              <AccordionItem>
+                <h2>
+                  <AccordionButton>
+                    <Box flex="1" textAlign="left">
+                      04-stats-preview-card
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4}>
+                  <Link href="/04-stats-preview-card">
+                    <a> Index</a>
+                  </Link>
+                </AccordionPanel>
+                <AccordionPanel pb={4}>
+                  <Link href="/04-stats-preview-card/desktop">
+                    <a>Layout Desktop</a>
+                  </Link>
+                </AccordionPanel>
+                <AccordionPanel pb={4}>
+                  <Link href="/04-stats-preview-card/mobile">
+                    <a>Layout Mobile</a>
+                  </Link>
+                </AccordionPanel>
+              </AccordionItem>
+              {/*  */}
             </Accordion>
           </DrawerBody>
         </DrawerContent>
