@@ -10,3 +10,6 @@ Onde irá ficar visível uma página com o código e outras duas com a visão
 <img src="public/img-qr/qr-desktop.png" > Desktop | <img src="public/img-qr/qr-mobile.png" > Mobile
 | :---: | :---: |
 ### Desafio 2
+
+<img src="public/img-nft-preview-card-component-main/nft-desktop.png" > Desktop | <img src="public/img-nft-preview-card-component-main/nft-mobile.png" > Mobile
+| :---: | :---: |
