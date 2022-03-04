@@ -4,8 +4,8 @@ export default function IndexComponent() {
   return (
     <>
       <Head></Head>
-      <div class={styles.body}>
-        <div class={styles.card}>Setup</div>
+      <div className={styles.body}>
+        <div className={styles.card}>Setup</div>
       </div>
     </>
   );

@@ -4,9 +4,9 @@ export default function NftPreviewCardComponent() {
   return (
     <>
       <Head></Head>
-      <div class={styles.body}>
-        <div class={styles.card}>
-          <div class={styles.card_header}>
+      <div className={styles.body}>
+        <div className={styles.card}>
+          <div className={styles.card_header}>
             <img
               src="/03-order-summary/illustration-hero.svg"
               alt="illustration"
@@ -17,14 +17,14 @@ export default function NftPreviewCardComponent() {
             You can now listen to millions of songs, audiobooks, and podcasts on
             any device anywhere you like!
           </p>
-          <div class={styles.card_footer}>
+          <div className={styles.card_footer}>
             <img src="/03-order-summary/icon-music.svg" />
             <div>
               <strong>Annual Plan</strong> $59.99/year
             </div>{" "}
             <a href="#">Change</a>
           </div>
-          <div class={styles.card_button}>
+          <div className={styles.card_button}>
             <a href="#">Proceed to Payment </a>
             <a href="#"> Cancel Order</a>
           </div>

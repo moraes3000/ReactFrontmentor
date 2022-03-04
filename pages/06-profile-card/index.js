@@ -5,18 +5,18 @@ export default function IndexComponent() {
     <>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
           href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
           rel="stylesheet"
         ></link>
       </Head>
-      <div class={styles.body}>
-        <div class={styles.card}>
-          <div class={styles.card_bg}>
+      <div className={styles.body}>
+        <div className={styles.card}>
+          <div className={styles.card_bg}>
             <img src="/06-profile-card/bg-pattern-card.svg" />
           </div>
-          <div class={styles.card_body}>
+          <div className={styles.card_body}>
             <img src="/06-profile-card/image-victor.jpg" />
             <h1>
               Victor Crest <span>26</span>
@@ -24,7 +24,7 @@ export default function IndexComponent() {
             London
             <hr />
           </div>
-          <div class={styles.card_footer}>
+          <div className={styles.card_footer}>
             <ul>
               <li>
                 <p>

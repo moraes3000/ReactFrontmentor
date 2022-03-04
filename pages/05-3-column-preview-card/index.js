@@ -5,15 +5,15 @@ export default function IndexComponent() {
     <>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
           href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap"
           rel="stylesheet"
         ></link>
       </Head>
-      <div class={styles.body}>
-        <div class={styles.wrapper}>
-          <div class={styles.wrapper_item}>
+      <div className={styles.body}>
+        <div className={styles.wrapper}>
+          <div className={styles.wrapper_item}>
             <img
               src="/05-3-column-preview-card/icon-sedans.svg"
               alt="icon-sedans.svg"
@@ -26,7 +26,7 @@ export default function IndexComponent() {
             </p>
             <a href="#">Learn More</a>
           </div>
-          <div class={styles.wrapper_item}>
+          <div className={styles.wrapper_item}>
             <img
               src="/05-3-column-preview-card/icon-suvs.svg"
               alt="icon-suvs.svg"
@@ -38,7 +38,7 @@ export default function IndexComponent() {
             </p>
             <a href="#">Learn More</a>
           </div>
-          <div class={styles.wrapper_item}>
+          <div className={styles.wrapper_item}>
             <img
               src="/05-3-column-preview-card/icon-luxury.svg"
               alt="icon-luxury.svg"

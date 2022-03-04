@@ -5,17 +5,17 @@ export default function QrCodeComponent() {
     <>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
           href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
           rel="stylesheet"
         />
       </Head>
-      <div class={styles.body}>
-        <div class={styles.container}>
-          <div class={styles.box}>
+      <div className={styles.body}>
+        <div className={styles.container}>
+          <div className={styles.box}>
             <img src="/img-qr/image-qr-code.png" alt="Picture of the author" />
-            <div class={styles.content}>
+            <div className={styles.content}>
               <h1>Improve your front-end skills by building projects</h1>
               <p>
                 Scan the QR code to visit Frontend Mentor and take your coding
